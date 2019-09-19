@@ -1,0 +1,17 @@
+---
+title: "Untitled"
+author: "Jeremy Ornstein"
+date: "9/19/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(readxl)
+```
+
+```{r}
+x <- read_excel("class_enrollment_summary_by_term_9.19.19.xlsx", skip=3)
+```
+
